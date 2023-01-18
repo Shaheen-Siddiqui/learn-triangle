@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Megrim&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap");
+
+:root {
+    --primary-color: #17249d;
+    --off-white: #DBEAFE;
+
+}
+
+body {
+    background-color: ghostwhite;
+    color: black;
+    font-family: "Work Sans", sans-serif;
+    margin-top: 0px;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+button{
+    display: block;
+    margin-left :auto;
+    padding: 0.5rem 0.5rem;
+    border-radius:0.5rem;
+    background-color:lightblue;
+    cursor: pointer;
+}
+.link {                
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-style: italic;  
+                                                                                           
+}
+
+.list-non-bulit {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    margin: auto;
+    padding-right: 2rem 1rem;
+    
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    border-bottom-left-radius:1rem;
+    padding-bottom:0.4rem;
+}
+
+.navigation .link {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid grey;
+    border-radius: 0.5rem;
+    outline-style: groove;
+    margin: 0.4rem;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .nav-brand:hover {
+    color: var(--dark-green);
+
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Megrim", cursive;
+
+}
+.navigation .link-active:hover {
+    color:lightblue;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+h1:hover {
+    color: var(--primary-color);
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+}
+
+h2 {
+
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+hr {
+    width: auto;
+}
+
+h5 {
+    text-align: center;
+    font-size: 20px;
+    margin-top: -1rem;
+}
+
+.quiz-form {
+    text-align: center;
+    font-size: 20px;
+}
+
+.question-container {
+    padding: 1.5rem 2rem;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#submit {
+    display: block;
+    margin: auto;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#output {
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.Angle-input {
+    border-radius: 0.5rem;
+    padding: 1rem 1rem;
+    border-color: blue;
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+label p {
+    text-align: center;
+    font-size: 27px;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    color: var(--primary-color);
+}
+
+#is-triangle-btn {
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    display: block;
+    margin: auto;
+    padding: 1rem 1.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: blueviolet;
+    cursor: pointer;
+
+}
+
+main {
+    overflow: hidden;
+}
+
+.side-input {
+    display: block;
+    margin: auto;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    border-color: blue;
+    font-size: 20px;
+    text-align: center;
+}
+
+#hypotenuse-btn {
+    display: block;
+    margin: auto;
+    top: 9rem;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--primary-color);
+    color: #DBEAFE;
+    cursor: pointer;
+}
+
+h4 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.side {
+    margin: auto;
+    display: block;
+    border-radius: 0.5rem;
+    padding: 1rem 1rem;
+    text-align: center;
+    border-color: blue;
+}
+
+#side-btn {
+    margin: auto;
+    display: block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--primary-color);
+    color: #DBEAFE;
+    cursor: pointer;
+}
